@@ -1,4 +1,4 @@
-FROM quay.io/evl.ms/fullstaq-ruby:3.1.1-jemalloc-bullseye-slim
+FROM quay.io/evl.ms/fullstaq-ruby:3.1.3-jemalloc-bullseye-slim
 
 RUN apt-get update -qq && apt-get install -yq --no-install-recommends \
     build-essential \
